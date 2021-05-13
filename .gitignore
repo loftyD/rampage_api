@@ -6,3 +6,4 @@ Gemfile.lock
 config/deploy/*.rb
 config/*.rb
 *.rb
+lib/*
