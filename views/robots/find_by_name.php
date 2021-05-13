@@ -8,7 +8,7 @@ $params = [
 		"property" => "name",
 		"required" => true, 
 		"type" => "string", 
-		"description" => "Name of the robot you want to lookup. Lookup is done on partial matches. For example 'dri' matches Drizzle &amp; Maximum Ogredrive. <strong>Name is case insensitive.</strong>"
+		"description" => "Name of the robot you want to lookup. Lookup is done on partial matches. For example 'dri' matches Drizzle &amp; Maximum Ogredrive. <strong>name is case insensitive.</strong>"
 	]
 ];
 $documentation->resourceDescribe($params);
