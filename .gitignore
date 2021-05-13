@@ -7,3 +7,4 @@ config/deploy/*.rb
 config/*.rb
 *.rb
 lib/*
+/log/capistrano.log
