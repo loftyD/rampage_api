@@ -1,5 +1,5 @@
 <?php
-$documentation->resourceIntro('/robots/find_by_name', 'Gets any of your robots by its ID.');
+$documentation->resourceIntro('/robots/find_by_name', 'Query robots by name.');
 $documentation->authorizationNotRequired();
 $documentation->displayHeaders();
 
