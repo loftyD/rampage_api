@@ -3,7 +3,7 @@
 	<li><a data-toggle="collapse" href="#events" class="menu-item"><strong>Events</strong></a>
 		<ul class="collapse" id="events">
 			<li><a href="/events/shareable_link">/events/shareable_link</a></li>
-			<li><a href="/events/signup">/events/signup</a></li>
+			<?php /*<li><a href="/events/signup">/events/signup</a></li> */ ?>
 		</ul>
 	</li>
 	<li><a data-toggle="collapse" href="#robots" class="menu-item"><strong>Robots</strong></a>

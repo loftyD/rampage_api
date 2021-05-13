@@ -18,6 +18,20 @@ $app->route("/events/shareable_link", function() use($app, $documentation) {
 	$app->render("foot");
 });
 
+# robot docs go here
+
+$app->route("/robots/show", function() use($app, $documentation) {
+	$app->render("head");
+	$app->render("robots/show", ["documentation" => $documentation]);
+	$app->render("foot");
+});
+
+$app->route("/robots/find_by_name", function() use($app, $documentation) {
+	$app->render("head");
+	$app->render("robots/find_by_name", ["documentation" => $documentation]);
+	$app->render("foot");
+});
+
 # user docs go here
 
 $app->route("/users/show", function() use($app, $documentation) {
