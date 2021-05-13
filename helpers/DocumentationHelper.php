@@ -185,7 +185,7 @@ class DocumentationHelper {
             "header" => "Authorization",
             "value" =>  "Bearer authorization_token",
             "required" => true,
-            "description" => "In order to carry out this request your token will need to be supplied with this request. Your secure authorization token can be found associated to your account on Rampage. NB: Please never reveal this key publicly."
+            "description" => "In order to carry out this request, your authorization token will need to be supplied with this request. Your authorization token can be found associated to your account on Rampage. <strong>NB: Please never reveal this key publicly.</strong>"
         ];
       }
 
