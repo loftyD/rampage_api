@@ -155,8 +155,8 @@ class DocumentationHelper {
     $this->resource[] = $resource;
   }
 
-  public function authorizationRequired($content) {
-    $this->resource[] = $this->showAlert('Authorization Required', 'danger', $content);
+  public function authorizationRequired() {
+    $this->resource[] = $this->showAlert('Authorization Required', 'danger', "Authorization is required for this resource.");
   }
 
   public function authorizationNotRequired() {
@@ -181,11 +181,11 @@ class DocumentationHelper {
       ];
 
       if($authorizationRequired) {
-        $params[0][1] = [
+        $params[1] = [
             "header" => "Authorization",
-            "value" =>  "Your secure authorization token which can be found associated to your account on Rampage. NB: Please never reveal this key publicly.",
+            "value" =>  "Bearer authorization_token",
             "required" => true,
-            "description" => "In order to carry out this request your token will need to be supplied with this request."
+            "description" => "In order to carry out this request your token will need to be supplied with this request. Your secure authorization token can be found associated to your account on Rampage. NB: Please never reveal this key publicly."
         ];
       }
 
