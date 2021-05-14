@@ -1,9 +1,9 @@
 <div class="container">
 	<div class="row">
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<?=$this->render('sidebar');?>
 		</div>
-		<div class="col-md-9">
+		<div class="col-md-8">
 			<h1>Welcome To Rampage API Documentation!</h1>
 			<p>Welcome to the API Documentation for Rampage which you can use to enhance your experience the platform.</p>
 
