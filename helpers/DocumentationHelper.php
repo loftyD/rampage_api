@@ -206,7 +206,7 @@ class DocumentationHelper {
   }
 
   public function getScenario($text) {
-    $text = str_replace("on_","",$text);
+    $text = preg_replace("/^on_/",'',$text,1);
     $text = $this->toCamelCase($text);
     return $text;
   }
