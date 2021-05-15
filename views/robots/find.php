@@ -12,15 +12,15 @@ $params = [
 	],
 	[
 		"property" => "weight_class",
-		"required" => false, 
+		"required" => false,
 		"type" => "integer", 
-		"description" => "Weight class of the event. <a href=\"/help\">Please see here for further information.</a>"
+		"description" => "Weight class of the robot. <a href=\"/help\">Please see here for further information.</a>"
 	],
 	[
 		"property" => "owner",
 		"required" => false, 
 		"type" => "integer/string", 
-		"description" => "The Event organiser of the event. This is supplied by using <code>user_id</code> or partial search by name of the user."
+		"description" => "The owner of the robot. This is supplied by using <code>user_id</code> or partial search by name of the user."
 	]
 ];
 $documentation->resourceDescribe($params);
