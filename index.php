@@ -18,6 +18,12 @@ $app->route("/events/shareable_link", function() use($app, $documentation) {
 	$app->render("foot");
 });
 
+$app->route("/events/find", function() use($app, $documentation) {
+	$app->render("head");
+	$app->render("events/find", ["documentation" => $documentation]);
+	$app->render("foot");
+});
+
 $app->route("/events/signup", function() use($app, $documentation) {
 	$app->render("head");
 	$app->render("events/signup", ["documentation" => $documentation]);
