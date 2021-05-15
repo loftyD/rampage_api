@@ -164,9 +164,9 @@ class DocumentationHelper {
   }
 
   public function outputResource() {
-    echo "<div class=\"container\">";
+    // echo "<div class=\"container\">";
     echo implode("", $this->resource);
-    echo "</div>";
+    // echo "</div>";
   }
 
   public function displayHeaders($authorizationRequired = false) {

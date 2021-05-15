@@ -10,6 +10,12 @@ $app->route("/", function() use($app) {
 	$app->render("foot");
 });
 
+$app->route("/help", function() use($app) {
+	$app->render("head");
+	$app->render("home/help");
+	$app->render("foot");
+});
+
 # events docs go here
 
 $app->route("/events/shareable_link", function() use($app, $documentation) {

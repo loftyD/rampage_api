@@ -62,4 +62,14 @@ $response = [
 	"fail" => []
 ];
 $documentation->resourceResponse($response);
-$documentation->outputResource();
+?>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<?=$this->render('sidebar');?>
+		</div>
+		<div class="col-md-8">
+			<?php $documentation->outputResource(); ?>
+		</div>
+	</div>
+</div>

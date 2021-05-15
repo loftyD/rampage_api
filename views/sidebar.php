@@ -1,5 +1,8 @@
 <h2>Resources</h1>
 <ul>
+	<li><a href="/"><strong>Home</strong></a></li>
+	<li><a href="/help"><strong>Help</strong></a></li>
+	<hr />
 	<li><a data-toggle="collapse" href="#events" class="menu-item"><strong>Events</strong></a>
 		<ul class="collapse" id="events">
 			<li><a href="/events/find"><code>GET</code> /events/find</a></li>
