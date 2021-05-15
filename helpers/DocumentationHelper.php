@@ -81,7 +81,7 @@ class DocumentationHelper {
 
     $resource .="
         <div class=\"row margin-0 list-header hidden-sm hidden-xs\">
-            <div class=\"col-md-3\"><div class=\"header\">header</div></div>
+            <div class=\"col-md-3\"><div class=\"header\">Parameter</div></div>
             <div class=\"col-md-2\"><div class=\"header\">Type</div></div>
             <div class=\"col-md-2\"><div class=\"header\">Required</div></div>
             <div class=\"col-md-5\"><div class=\"header\">Description</div></div>
