@@ -12,7 +12,7 @@
 	</li>
 	<li><a data-toggle="collapse" href="#robots" class="menu-item"><strong>Robots</strong></a>
 		<ul class="collapse" id="robots">
-			<li><a href="/robots/find_by_name"><code>GET</code> /robots/find_by_name</a></li>
+			<li><a href="/robots/find"><code>GET</code> /robots/find</a></li>
 			<li><a href="/robots/show"><code>GET</code> /robots/show</a></li>
 		</ul>
 	</li>

@@ -44,9 +44,9 @@ $app->route("/robots/show", function() use($app, $documentation) {
 	$app->render("foot");
 });
 
-$app->route("/robots/find_by_name", function() use($app, $documentation) {
+$app->route("/robots/find", function() use($app, $documentation) {
 	$app->render("head");
-	$app->render("robots/find_by_name", ["documentation" => $documentation]);
+	$app->render("robots/find", ["documentation" => $documentation]);
 	$app->render("foot");
 });
 

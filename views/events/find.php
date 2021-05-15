@@ -32,8 +32,8 @@ $params = [
 	[
 		"property" => "eo",
 		"required" => false, 
-		"type" => "integer", 
-		"description" => "The Event organiser of the event. This is supplied by using <code>user_id</code>"
+		"type" => "integer/string", 
+		"description" => "The Event organiser of the event. This is supplied by using <code>user_id</code> or partial search by name of event organiser."
 	]
 ];
 $documentation->resourceDescribe($params);

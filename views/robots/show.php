@@ -1,7 +1,7 @@
 <?php
 $documentation->resourceIntro('/robots/show', 'Gets any of your robots by its ID.');
 $documentation->authorizationRequired();
-$documentation->showAlert("Note", "warning", "You will not be able to access other user's robots with this resource; only your own. Use <a href=\"/robots/find_by_name\">/robots/find_by_name</a> to lookup other robots by name.");
+$documentation->showAlert("Note", "warning", "You will not be able to access other user's robots with this resource; only your own. Use <a href=\"/robots/find\">/robots/find</a> to lookup other robots by a variety of criteria.");
 $documentation->displayHeaders(true);
 
 $params = [
