@@ -2,7 +2,7 @@
 $documentation->resourceIntro('/events/find_by_query', 'Search for events on a variety of criteria by supplying one criterion and does an event search based on location.');
 $documentation->authorizationNotRequired();
 $documentation->showAlert("Note", "warning", "This resource will not retrieve events marked as private.");
-$documentation->showAlert("Note", "info", "If this resource fails to find events, and if you have a supplied a valid geographical location, this will retrieve applicable events that are within the declared radius (in miles.");
+$documentation->showAlert("Note", "info", "If this resource fails to find events, and if you have a supplied a valid geographical location, this will retrieve applicable events that are within the declared radius <strong>(in miles.)</strong>");
 $documentation->displayHeaders();
 
 $params = [
