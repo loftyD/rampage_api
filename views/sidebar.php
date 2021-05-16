@@ -6,6 +6,7 @@
 	<li><a data-toggle="collapse" href="#events" class="menu-item"><strong>Events</strong></a>
 		<ul class="collapse" id="events">
 			<li><a href="/events/find"><code>GET</code> /events/find</a></li>
+			<li><a href="/events/find_by_query"><code>GET</code> /events/find_by_query</a></li>
 			<li><a href="/events/shareable_link"><code>GET</code> /events/shareable_link</a></li>
 			<li><a href="/events/signup"><code>POST</code> /events/signup</a></li>
 		</ul>
