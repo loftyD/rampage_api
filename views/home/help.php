@@ -11,6 +11,8 @@
 			<h2>Endpoint</h2>
 			<p>The API Endpoint is located at <code>https://rampagebots.co.uk/api</code>.</p>
 
+			<h2>Rate Limiting</h2>
+			<p>Unless specified, each resource is rate limited to 5000 requests per hour. Some resources may have their own rate limiting set, if this is the case then this will be shown for the applicable resource.</p>
 			<h2>Robot Weight Classes</h2>
 			<p>Currently there are 9 weight classes. These are identified as:</p>
 			<ul>
