@@ -6,7 +6,10 @@
 		<div class="col-md-8">
 			<h1>Help</h1>
 			
-			<p>This page will provide a reference for any codes or integers that may show up in the provided resources.</p>
+			<p>This page will provide a reference for any codes, integers, or essential URL's that may show up in the provided resources.</p>
+
+			<h2>Endpoint</h2>
+			<p>The API Endpoint is located at <code>https://rampagebots.co.uk/api</code>.</p>
 
 			<h2>Robot Weight Classes</h2>
 			<p>Currently there are 9 weight classes. These are identified as:</p>
