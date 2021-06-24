@@ -68,7 +68,7 @@ $response = [
 		],
 		"on_disallow_signups_on_close" => [
 			"error" => "At this time, the event has closed signups. This means you won't be able to sign up to this event; even as a reserve."
-		]
+		],
 		"on_insufficient_permissions" => [
 			"error" => "You do not have permissions to access this resource."
 		]
