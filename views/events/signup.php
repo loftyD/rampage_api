@@ -66,6 +66,9 @@ $response = [
 		"on_signup_check_general_error" => [
 			"error" => "This robot is not eligible to sign up to this event. This could be due to the robot not meeting the valid weightclass, or the event has closed signups."
 		],
+		"on_disallow_signups_on_close" => [
+			"error" => "At this time, the event has closed signups. This means you won't be able to sign up to this event; even as a reserve."
+		]
 		"on_insufficient_permissions" => [
 			"error" => "You do not have permissions to access this resource."
 		]
