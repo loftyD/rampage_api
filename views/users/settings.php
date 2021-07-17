@@ -49,10 +49,10 @@ $response = [
 	],
 	"fail" => [
 		"on_empty_field_if_specified_in_request" => [
-			"error" => "team_name is mandatory."
+			"errors" => "team_name is mandatory."
 		],
 		"on_invalid_boolean_specified" => [
-			"error" => "enable_mfa needs to be boolean."
+			"errors" => "enable_mfa needs to be boolean."
 		]
 	]
 ];
