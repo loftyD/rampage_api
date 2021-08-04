@@ -40,6 +40,7 @@ $documentation->resourceDescribe($params);
 
 $response = [
 	"success" => [
+		"events" =>
 		[
 			"event_id" => "1092",
 			"name" => "Dockyard Derby",
