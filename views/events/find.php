@@ -40,24 +40,25 @@ $documentation->resourceDescribe($params);
 
 $response = [
 	"success" => [
-		"events" =>
-		[
-			"event_id" => "1092",
-			"name" => "Dockyard Derby",
-			"location" => "Gloucester",
-			"date_of_event" => "2021-06-29",
-			"event_organiser" => "8102",
-			"weight_class" => "1",
-			"status" => "active"
-		],
-		[
-			"event_id" => "1096",
-			"name" => "UWE 2019",
-			"location" => "University of West England, South Gloucestershire",
-			"date_of_event" => "2019-02-25",
-			"event_organiser" => "8191",
-			"weight_class" => "2",
-			"status" => "completed"
+		"events" => [
+			[
+				"event_id" => "1092",
+				"name" => "Dockyard Derby",
+				"location" => "Gloucester",
+				"date_of_event" => "2021-06-29",
+				"event_organiser" => "8102",
+				"weight_class" => "1",
+				"status" => "active"
+			],
+			[
+				"event_id" => "1096",
+				"name" => "UWE 2019",
+				"location" => "University of West England, South Gloucestershire",
+				"date_of_event" => "2019-02-25",
+				"event_organiser" => "8191",
+				"weight_class" => "2",
+				"status" => "completed"
+			]
 		]
 	],
 	"fail" => []
