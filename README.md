@@ -14,5 +14,9 @@ Feature requests are also welcome here too. Please prefix with [FEAT] followed b
 
 Any bespoke requests for an event should be communicated via the **Team Siberian Warlords Facebook** page.
 
+## Support
+
+We're on Discord and you can join our discord at https://discord.gg/379J7k7xCk
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
