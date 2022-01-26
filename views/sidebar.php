@@ -9,6 +9,7 @@
 			<li><a href="/events/find_by_query"><code>GET</code> /events/find_by_query</a></li>
 			<li><a href="/events/upcoming_battles"><code>GET</code> /events/upcoming_battles</a></li>
 			<li><a href="/events/shareable_link"><code>GET</code> /events/shareable_link</a></li>
+			<li><a href="/events/robot_history"><code>GET</code> /events/robot_history</a></li>
 			<li><a href="/events/signup"><code>POST</code> /events/signup</a></li>
 		</ul>
 	</li>

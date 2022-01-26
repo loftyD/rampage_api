@@ -42,10 +42,15 @@ $app->route("/events/upcoming_battles", function() use($app, $documentation) {
 	$app->render("foot");
 });
 
-
 $app->route("/events/signup", function() use($app, $documentation) {
 	$app->render("head");
 	$app->render("events/signup", ["documentation" => $documentation]);
+	$app->render("foot");
+});
+
+$app->route("/events/robot_history", function() use($app, $documentation) {
+	$app->render("head");
+	$app->render("events/robot_history", ["documentation" => $documentation]);
 	$app->render("foot");
 });
 
