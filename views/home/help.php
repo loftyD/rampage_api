@@ -23,7 +23,7 @@
 				<li><code>5</code> : Heavyweight</li>
 				<li><code>6</code> : US Antweight (454g) (1lb)</li>
 				<li><code>7</code> : US Beetleweight (1.36kg) (3lb)</li>
-				<li><code>8</code> : Featherweight Sportsman - Robodojo Rules (13.6kg) (30lb)</li>
+				<li><code>8</code> : Featherweight Sportsman - Robodojo Rules (13.6kg) (30lb) <em>Deprecated: Do not use as of 8/3/22</em></li>
 				<li><code>9</code> : Bristol Antweight - Bristol Bot Builders Rules (175g / 250g)</li>
 			</ul>
 
