@@ -82,6 +82,12 @@ $app->route("/users/settings", function() use($app, $documentation) {
 	$app->render("foot");
 });
 
+$app->route("/users/sign_in", function() use($app, $documentation) {
+	$app->render("head");
+	$app->render("users/sign_in", ["documentation" => $documentation]);
+	$app->render("foot");
+});
+
 
 
 $app->start();
