@@ -21,6 +21,7 @@
 	</li>
 	<li><a data-toggle="collapse" href="#users" class="menu-item"><strong>Users</strong></a>
 		<ul class="collapse" id="users">
+			<li><a href="/users/sign_in"><code>POST</code> /users/sign_in</a></li>
 			<li><a href="/users/show"><code>GET</code> /users/show</a></li>
 			<li><a href="/users/settings"><code>PUT</code> /users/settings</a></li>
 		</ul>
