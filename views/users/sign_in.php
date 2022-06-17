@@ -2,6 +2,7 @@
 $documentation->resourceIntro('/users/sign_in', 'Authenticate to retrieve secure token to carry out authed requests.' , 'POST');
 $documentation->showAlert("Note", "warning", "Upon successful authentication, the authentication token will be located in the headers of the response.");
 $documentation->showAlert("Note", "info", "If you have 2FA set up for your account, you'll need to call this resource twice. Once for initial login and once for 2FA confirmation.");
+$documentation->displayHeaders(false);
 
 $params = [
 	[
