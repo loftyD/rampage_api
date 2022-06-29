@@ -88,6 +88,13 @@ $app->route("/users/sign_in", function() use($app, $documentation) {
 	$app->render("foot");
 });
 
+# techcheck docs go here
+
+$app->route("/techchecks/find", function() use($app, $documentation) {
+	$app->render("head");
+	$app->render("techchecks/find", ["documentation" => $documentation]);
+	$app->render("foot");
+});
 
 
 $app->start();

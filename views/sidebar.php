@@ -26,4 +26,9 @@
 			<li><a href="/users/settings"><code>PUT</code> /users/settings</a></li>
 		</ul>
 	</li>
+	<li><a data-toggle="collapse" href="#users" class="menu-item"><strong>Tech Checks</strong></a>
+		<ul class="collapse" id="techchecks">
+			<li><a href="/techchecks/find"><code>GET</code> /techchecks/find</a></li>
+		</ul>
+	</li>
 </ul>
