@@ -29,6 +29,7 @@
 	<li><a data-toggle="collapse" href="#techchecks" class="menu-item"><strong>Tech Checks</strong></a>
 		<ul class="collapse" id="techchecks">
 			<li><a href="/techchecks/find"><code>GET</code> /techchecks/find</a></li>
+			<li><a href="/techchecks/create"><code>POST</code> /techchecks/create</a></li>
 		</ul>
 	</li>
 </ul>

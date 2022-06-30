@@ -1,6 +1,7 @@
 <?php
 $documentation->resourceIntro('/techchecks/find', 'Retrieve FRA Tech Check form results for a robot at an event.');
-$documentation->displayHeaders();
+$documentation->authorizationRequired();
+$documentation->displayHeaders(true);
 
 $params = [
 	[
@@ -14,7 +15,7 @@ $params = [
 		"required" => true,
 		"type" => "integer", 
 		"description" => "The robot (by id) you wish to lookup"
-	]
+	],
 ];
 $documentation->resourceDescribe($params);
 
@@ -22,7 +23,7 @@ $response = [
 	"success" => [
 	  'techcheck' => 
 	  [
-	    'check_cradle' => '1',
+	  	'check_cradle' => '1',
 	    'check_sharp_edges' => '1',
 	    'check_locking_bars' => '1',
 	    'check_batteries' => '1',
@@ -43,7 +44,8 @@ $response = [
 	  ]
 	],
 	"fail" => [
-		"on_event_cannot_be_found" => ["error" => "event could not be found."]
+		"on_event_cannot_be_found" => ["error" => "event could not be found."],
+		"on_robot_cannot_be_found" => ["error" => "robot could not be found."]
 	]
 ];
 $documentation->resourceResponse($response);

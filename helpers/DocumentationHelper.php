@@ -24,15 +24,15 @@ class DocumentationHelper {
 
     $resource .="
         <div class=\"row margin-0 list-header hidden-sm hidden-xs\">
-            <div class=\"col-md-3\"><div class=\"header\">Header</div></div>
+            <div class=\"col-md-4\"><div class=\"header\">Header</div></div>
             <div class=\"col-md-2\"><div class=\"header\">Value</div></div>
             <div class=\"col-md-2\"><div class=\"header\">Required</div></div>
-            <div class=\"col-md-5\"><div class=\"header\">Description</div></div>
+            <div class=\"col-md-4\"><div class=\"header\">Description</div></div>
         </div>";
     foreach($params as $param) {
       $resource.="
         <div class=\"row margin-0\">
-            <div class=\"col-md-3\">
+            <div class=\"col-md-4\">
                 <div class=\"cell\">
                     <div class=\"propertyname\">
                         ". $param['header'] ." ";
@@ -59,7 +59,7 @@ class DocumentationHelper {
                     </div>
                 </div>
             </div>
-            <div class=\"col-md-5\">
+            <div class=\"col-md-4\">
                 <div class=\"cell\">
                     <div class=\"description\">
                         ". $param['description']."
@@ -81,15 +81,15 @@ class DocumentationHelper {
 
     $resource .="
         <div class=\"row margin-0 list-header hidden-sm hidden-xs\">
-            <div class=\"col-md-3\"><div class=\"header\">Parameter</div></div>
+            <div class=\"col-md-4\"><div class=\"header\">Parameter</div></div>
             <div class=\"col-md-2\"><div class=\"header\">Type</div></div>
             <div class=\"col-md-2\"><div class=\"header\">Required</div></div>
-            <div class=\"col-md-5\"><div class=\"header\">Description</div></div>
+            <div class=\"col-md-4\"><div class=\"header\">Description</div></div>
         </div>";
     foreach($params as $param) {
       $resource.="
         <div class=\"row margin-0\">
-            <div class=\"col-md-3\">
+            <div class=\"col-md-4\">
                 <div class=\"cell\">
                     <div class=\"propertyname\">
                         ". $param['property'] ." ";
@@ -116,7 +116,7 @@ class DocumentationHelper {
                     </div>
                 </div>
             </div>
-            <div class=\"col-md-5\">
+            <div class=\"col-md-4\">
                 <div class=\"cell\">
                     <div class=\"description\">
                         ". $param['description']."

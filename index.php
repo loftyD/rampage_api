@@ -96,5 +96,10 @@ $app->route("/techchecks/find", function() use($app, $documentation) {
 	$app->render("foot");
 });
 
+$app->route("/techchecks/create", function() use($app, $documentation) {
+	$app->render("head");
+	$app->render("techchecks/create", ["documentation" => $documentation]);
+	$app->render("foot");
+});
 
 $app->start();
