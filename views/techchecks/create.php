@@ -1,8 +1,8 @@
 <?php
 $documentation->resourceIntro('/techchecks/create', 'Submit or update FRA Tech Check form results for a robot at an event.', "POST");
 $documentation->authorizationRequired();
-$documentation->displayHeaders(true);
 $documentation->showAlert('Note', 'warning', "Creating or saving tech checks will trigger emails to roboteers. Please be considerate when using this resource.");
+$documentation->displayHeaders(true);
 
 $params = [
 	[
