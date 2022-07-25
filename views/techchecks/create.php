@@ -1,7 +1,8 @@
 <?php
-$documentation->resourceIntro('/techchecks/find', 'Submit or update FRA Tech Check form results for a robot at an event.');
+$documentation->resourceIntro('/techchecks/create', 'Submit or update FRA Tech Check form results for a robot at an event.', "POST");
 $documentation->authorizationRequired();
 $documentation->displayHeaders(true);
+$documentation->showAlert('Note', 'warning', "Creating or saving tech checks will trigger emails to roboteers. Please be considerate when using this resource.");
 
 $params = [
 	[
@@ -89,7 +90,7 @@ $params = [
 		"description" => "Weaponry Check"
 	],
 	[
-		"property" => "checks[check_removable_link",
+		"property" => "checks[check_removable_link]",
 		"required" => true,
 		"type" => "integer",
 		"description" => "Removable Link Check"
