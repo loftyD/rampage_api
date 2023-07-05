@@ -8,11 +8,16 @@
 			
 			<p>This page will provide a reference for any codes, integers, or essential URL's that may show up in the provided resources.</p>
 
+			<h2>Libraries</h2>
+
+			<p>There are no officially supported client or server side libraries available, however a JS implementation authored by Merseyside Robot Fighting is available to use. This is limited in support and only provides unauthenticated <code>GET</code> and <code>POST</code> requests. Download it now at <a target="_blank" href="https://www.merseysiderobotfighting.com/plugins/rampage.min.js">https://www.merseysiderobotfighting.com/plugins/rampage.min.js</a>.</p>
+
 			<h2>Endpoint</h2>
 			<p>The API Endpoint is located at <code>https://rampagebots.co.uk/api</code>.</p>
 
 			<h2>Rate Limiting</h2>
 			<p>Unless specified, you are limited to 50 requests per hour for all resources; however some resources may have their own rate limiting set, if this is the case then this will be shown for the applicable resource.</p>
+
 			<h2>Robot Weight Classes</h2>
 			<p>Currently there are 9 weight classes. These are identified as:</p>
 			<ul>
